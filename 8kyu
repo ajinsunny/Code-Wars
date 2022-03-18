@@ -5,13 +5,13 @@
 const numberToString = num => num.toString()
 
 
-// In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?</h2>
+// In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
 
 function makeNegative(num) {
   return(-Math.abs(num))
 }
 
-// Given an array of integers, return a new array with each value doubled. </h2>
+// Given an array of integers, return a new array with each value doubled.
 
 class Kata {
   static getVolumeOfCuboid(length, width, height) {
