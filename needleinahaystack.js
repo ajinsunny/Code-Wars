@@ -11,3 +11,7 @@ function findNeedle(haystack) {
   let needlePos = haystack.findIndex(needle);
   return (`found the needle at position ${needlePos}`)
 }
+
+// OR
+
+const findNeedle = haystack => `found the needle at position ${haystack.findIndex('needle')}`
